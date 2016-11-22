@@ -46,5 +46,20 @@ boost:
       - ./b2 install
     win:
       - b2
+
+gstreamer:
+  file: https://gstreamer.freedesktop.org/src/gstreamer/gstreamer-1.10.1.tar.xz
+  build:
+    all:
+      - ./configure --prefix=<%= Glue.install_dir %>
+      - make
+  install:
+    all:
+      - make install
+  dependencies:
+    - glib
+
+glib:
+  # ...
 ```
 
