@@ -29,6 +29,7 @@ Build system should produce binaries from source code. Dependency manager should
 * it should be able to install multiple versions of the same library
 * it should be able to provide dependencies integration for `CMake`, `Meson`, `Boost.Build` build systems
 * it should be able to deal with the dependencies of dependencies
+* it should work on Windows, Linux, OS X in a uniform way
 
 # dependencies.yml
 
