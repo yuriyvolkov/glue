@@ -63,3 +63,13 @@ glib:
   # ...
 ```
 
+# Usage
+
+* `glue install` to install dependencies specified in `dependencies.yml`
+* `glue generate [cmake|boost|meson]` to generate integration files for build system
+* `glue vendor` to copy binary dependencies to `./vendor` for packaging
+
+
+
+
+
